@@ -1,4 +1,4 @@
-import { ,  } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
 
     useEffect(() => {
         // Add a resize event listener
-      
+        
         return () => {
             // Remove the resize event listener
           
